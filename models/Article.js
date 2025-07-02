@@ -1,6 +1,8 @@
 // models/Article.js
 import mongoose from "mongoose";
 
+import Article from '@/models/Article'; // ✅ RIGHT ✅
+
 // Define the schema (structure) of your article
 const ArticleSchema = new mongoose.Schema({
   title: String,
