@@ -2,7 +2,7 @@
 
 import mongoose from 'mongoose';
 import Article from '@/models/Article';
-import connectDB from '@/lib/mongodb';
+import connectDB from '@/lib/connectDB';
 
 export default async function ArticlePage({ params }) {
   const { slug } = await params;
